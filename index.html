@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字型示例</title>
+    <style>
+        @font-face {
+            font-family: 'ChenYuluoyan Thin Monospaced';
+            src: url('fonts/ChenYuluoyan-Thin-Monospaced.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'ChenYuluoyan Thin';
+            src: url('fonts/ChenYuluoyan-Thin.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'ChenYuluoyan Thin', sans-serif;
+        }
+
+        .monospaced {
+            font-family: 'ChenYuluoyan Thin Monospaced', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>這是一個使用 ChenYuluoyan Thin 字型的標題</h1>
+    <p>這是一段使用 ChenYuluoyan Thin 字型的段落。</p>
+    <p class="monospaced">這是一段使用 ChenYuluoyan Thin Monospaced 字型的段落。</p>
+</body>
+</html>
